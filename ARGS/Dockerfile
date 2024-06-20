@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version:-8}
+FROM almalinux:${version}
 ARG COURSE 
 ARG TRAINER 
 RUN echo "course is ${COURSE},Trainer is ${TRAINER}"
